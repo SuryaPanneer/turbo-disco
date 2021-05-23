@@ -18,4 +18,4 @@ This view provides the following details:
 
 For optimal performance, filter the records by the Customer_Type column.
 
-This page was created as part of the {{course}} on {{date}} by {{author}}.
+This page was created as part of the {{page.course}} on {{page.date}} by {{page.author}}.
