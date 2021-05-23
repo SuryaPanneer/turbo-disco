@@ -2,7 +2,6 @@
 course: TWT
 date: May 23, 2021
 author: Surya
-layout: template
 ---
 
 This view returns information about customers of the organization and person types in Oracle Fusion Receivables. This information is accessible through Receivables > Billing work area > Manage Customers. A record is returned for each customer identifier.
