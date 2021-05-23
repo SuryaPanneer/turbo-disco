@@ -9,6 +9,8 @@ This view returns information about customers of the organization and person typ
 
 Note: This view returns information only about customers while the Manage Customers page may display information about all parties, such as suppliers and customer contacts.
 
+This website belongs to {{site.name}}; my favorite author is {{site.favauthor}}
+
 **Description**
 
 This view provides the following details:

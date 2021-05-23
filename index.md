@@ -1,3 +1,7 @@
+---
+link: topics/GettingStarted.md
+---
+
 # LorelIpsum
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
@@ -14,4 +18,6 @@ Sed nisi lacus sed viverra tellus in hac tellus. Mattis molestie a iaculis at er
 * tellus
 * tellus
 
-[Getting Started](GettingStarted.md)
+This website belongs to {{site.name}}.
+
+My favorite author is {{site.favauthor}}. The author's website is ({{https://khaledhosseini.com/}}).
