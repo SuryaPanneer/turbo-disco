@@ -10,7 +10,8 @@ This view returns information about customers of the organization and person typ
 
 Note: This view returns information only about customers while the Manage Customers page may display information about all parties, such as suppliers and customer contacts.
 
-{% for item in site.data.common.items %}
+{% for item in site.data.common %}
+- {{item.period}}, {{item.place}}
 {% endfor %}
 
 **Description**
