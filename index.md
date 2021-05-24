@@ -1,6 +1,3 @@
----
-link: topics/GettingStarted.md
----
 
 # LorelIpsum
 
@@ -21,3 +18,5 @@ Sed nisi lacus sed viverra tellus in hac tellus. Mattis molestie a iaculis at er
 This website belongs to {{site.name}}.
 
 My favorite author is {{site.favauthor}}. The author's website is ({{https://khaledhosseini.com/}}).
+
+[Go to Getting Started page]({{site.getstartlink}})
