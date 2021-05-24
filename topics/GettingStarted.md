@@ -8,7 +8,9 @@ link: Intro
 
 This view returns information about customers of the organization and person types in Oracle Fusion Receivables. This information is accessible through Receivables > Billing work area > Manage Customers. A record is returned for each customer identifier.
 
-Note: This view returns information only about customers while the Manage Customers page may display information about all parties, such as suppliers and customer contacts.
+<p.note>Note: This view returns information only about customers while the Manage Customers page may display information about all parties, such as suppliers and customer contacts.</p>
+
+<h1>My period of stay in the last 5 years is as follows:</h1>
 
 {% for item in site.data.common %}
 - {{item.period}}, {{item.place}}

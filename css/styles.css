@@ -1,0 +1,409 @@
+﻿/*<meta />*/
+
+/*Global Style Sheet for Innowera PDF Deliverables; Updated on 30-11-2018*/
+
+
+h1	
+{
+	color: #25CAD2;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	margin-right: -1em;
+	margin-top: 0;
+	padding-bottom: 0.625em;
+    padding-right: 1em;
+	padding-top: 0.625em;
+	width: 100%;
+	font-size: 18pt;
+	font-family: "Pangea", "Arial", sans-serif;
+	page-break-before: always;
+	line-height: 108%;
+	
+}
+
+h1:after
+
+{
+	content: " ";
+	line-height: 1px;
+	display: block;
+    width: 10%;
+    border-bottom: 2px solid #25CAD2;
+  
+}
+
+h1.NoTOC	/*h1.NoTOC does not appear in the Table of Contents, and also does not appear in the bookmarks panel */
+{
+	mc-heading-level: 0;
+	/*border-bottom-width: 0.025em;*/
+	mc-hyphenate: never;
+}
+
+
+
+h1.Contents/*h1.Contents does not appear in the Table of Contents, but an entry for "Contents" is created in the bookmarks panel*/
+{
+	mc-heading-level: 9;
+	border-bottom-width: 0.025em;
+	mc-hyphenate: never;
+}
+
+h2
+{
+	margin-bottom: 0.25em;
+	margin-top: 1.25em;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16pt;
+	font-family: Pangea, Arial, sans-serif;
+	color: #25CAD2;
+	line-height: 112%;
+	page-break-after: avoid;
+}
+
+h2.NoTOC	/*h2.NoTOC does not appear in the Table of Contents; color changed for Innowera*/
+{
+	margin-bottom: 0.25em;
+	margin-top: 1.25em;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16pt;
+	font-family: "Pangea", "Arial", sans-serif;
+    color: #25CAD2;
+	line-height: 112%;
+	page-break-after: avoid;
+	mc-heading-level: 0;
+	mc-hyphenate: never;
+	page-break-before: auto;
+}
+
+h3
+{
+	padding-bottom: -.125em;
+	margin-top: 1.125em;
+	mc-hyphenate: never;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14pt;
+	font-family: "Pangea", "Arial", sans-serif;
+	color: #000000;
+	line-height: 120%;
+	page-break-after: avoid;
+
+}
+
+h4
+{
+	padding-bottom: -.2em;
+	margin-top: 0.9em;
+	mc-heading-level: 0;
+	page-break-after: avoid;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	font-family: "Pangea", "Arial", sans-serif;
+	color:#000000;
+	line-height: 120%;
+}
+
+h4.footer
+{
+	margin-top: 0.1em;
+	text-align: center;
+}
+
+img
+{
+	max-width: 800px;
+	border: solid 1px #000000;
+	border-radius: 8px;
+	padding: 5px;
+	position: relative;
+}
+
+
+p	/*Can be used for body text if no padding is required; used in result after steps*/
+{
+	
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #000000;
+	margin-top: 1em;
+	margin-bottom: 0;
+	mc-hyphenate: never;
+	white-space: normal;
+	line-height: 120%; /*line-height: 150%;*/
+}
+
+
+p.TOC9  /*Style not used in any content, but required for the "Contents" entry to not be displayed in the "Contents" topic*/
+{ 
+      color:  #ffffff;
+      font-size: 1px;
+      line-height: 0;
+      margin: 0;
+	  mc-pagenum-display: none;
+}
+
+/*Shubha: *Got the snippets for note and note1 and important from Flare forum and note 1 might have to be modified*/
+/*Haneef modifed p.note and p.important based on Team feedback*/
+
+p.note
+{
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 12pt;
+	color: #000000;
+	border: solid 1px #ffffff;
+	border-radius: 6px;
+	padding: 14px 20px;
+	padding-left: 30px;
+	padding-top: 2px;
+	background-color:  #ffffff;
+	background-image: url(../Images/noteNew.png);
+	background-position: 9px 3px;
+	background-repeat: no-repeat;
+	mc-auto-number-format: '{b}Note: {/b}';
+	line-height: 120%;
+	white-space: normal;
+}
+
+p.important
+{
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 12pt;
+	color: #000000;
+	border: solid 1px #ffffff;
+	border-radius: 6px;
+	padding: 14px 20px;
+	padding-left: 30px;
+	padding-top: 2px;
+	background-color: #ffffff;
+	background-image: url(../Images/importantNew.png);
+	background-position: 9px 3px;
+	background-repeat: no-repeat;
+	mc-auto-number-format: '{b}Important: {/b}';
+	line-height: 120%;
+	white-space: normal;
+}
+
+
+p.Copyright
+{
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 10pt;
+}
+
+
+p.tableheader	/* Used in tables. For table header.*/
+{
+	margin-top: 1em;
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+p.tabletext	/* Used in tables. For table text.*/
+{
+
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 11pt;
+	margin-top: 1em;
+}
+
+table /*Used only in master page layout*/
+{
+	margin-top: 2em;
+}
+
+table.header /*Used only in master page layout*/
+{
+	margin-top: 0em;
+}
+
+td.FrameFooterText/*Used in header and footer text*/
+
+{	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 10pt;
+}
+
+p.FrameFooterText
+{
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 10pt;
+}
+
+
+p.code	/*Used for a block or a single line of code, if the code must be within a block. Make sure you enclose within a pair of </div.code> tags */
+{
+	font-family: "Courier New", monospace;
+	word-wrap: break-word;
+	margin-top: .11em;
+	page-break-after: avoid;
+	color: #000000;
+}
+		
+div.code
+
+{
+	padding: 5px 5px 5px 5px;
+	background-color: #f2f2f2;
+	margin-top: 1em;
+}
+
+code	/*Inline style used for sample code*/
+{
+	font-family: "Courier New", monospace;
+	color: #000000;
+	mc-hyphenate: never;
+}
+
+
+p.liIntro	/*Used for the paragraph introducing a procedure; Used in "Symptom" and "Solution" for troubleshooting topics; Used in bug titles*/
+{
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	margin-bottom: 3pt;
+	margin-top: 12pt;
+	page-break-after: avoid;
+	color: #000000;
+}
+
+li	/*Used for bulleted list items and numbered list items using autonumbering*/
+{
+	font-family: "Pangea", "Arial", sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 0pt;
+	margin-top: 0.5em;
+	orphans: 2;
+	widows: 2;
+	margin-left: 0;
+	padding-left: 0;
+	color: #000000;
+	mc-hyphenate: never;
+	line-height: 120%;
+	white-space: normal;
+}
+
+
+p.titleSubject	/*Used for the subject of a document appearing on the Title page when using a print medium*/
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 32pt;
+	font-weight: bold;
+	font-family: Pangea, Arial, sans-serif;
+	text-align: left;
+}
+
+p.titleDocument	/*Used for the title of a document appearing on the Title page when using a print medium*/
+{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18pt;
+	font-family: Pangea, Arial, sans-serif;
+	text-align: left;
+	
+	margin-bottom: 0.5em;
+	margin-right: -1em;
+	margin-top: 0;
+	padding-bottom: 0.625em;
+    padding-right: 1em;
+	padding-top: 0.625em;
+	
+	line-height: 108%;
+}
+p.titleDocument:after
+
+{
+	content: " ";
+	line-height: 1px;
+	display: block;
+    width: 10%;
+    border-bottom: 1.8px solid #25CAD2;
+  
+}
+
+p.titleCompany	/*Used for the company name appearing on the Title page of a document when using a print medium*/
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-size: 16pt;
+	font-style: normal;
+	font-family: Pangea, Arial, sans-serif;
+	line-height: 100%;
+	text-align: left;
+}
+
+p.titleReleaseDate	/*Used for the release date of a document appearing on the Title page when using a print medium*/
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+a:link
+{
+color: #3179A3; /*Updated based on Marketing guidelines*/
+}
+
+a:visited
+{
+	color: #3179A3;
+}
+
+a:focus
+{
+	color: #ff4040;
+}
+
+a:hover
+{
+	color: #ff4040; /*Updated based on Marketing guidelines*/
+}
+
+a:active
+{
+	color:#ff4040;
+}
+
+a
+{
+	color:#3179A3;
+}
+
+
+MadCap|xref
+{
+	color: #3179A3;
+	font-weight: bold;
+	font-size: 1em;
+	mc-format: '{para}';
+}
+
+MadCap|xref:hover
+{
+	color: #ff4040;
+}
+
+MadCap|xref.ParaNumOnly
+{
+	mc-format: '{paranumonly}';
+}
+
+MadCap|xref.FirstH1Text
+{
+	mc-format: '{h1}';
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+	/* from PDF */
+}
