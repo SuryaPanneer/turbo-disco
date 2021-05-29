@@ -5,6 +5,9 @@ author: Surya
 layout: template
 link: Intro
 ---
+
+{% include singlesource.txt %}
+
 <h1>Getting Started</h1>
 
 <p>This view returns information about customers of the organization and person types in Oracle Fusion Receivables. This information is accessible through Receivables > Billing work area > Manage Customers. A record is returned for each customer identifier.</p>
@@ -16,6 +19,8 @@ link: Intro
 {% for item in site.data.common %}
 1. {{item.period}}, {{item.place}}
 {% endfor %}
+
+
 
 <h2>Description</h2>
 
