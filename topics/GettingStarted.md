@@ -14,7 +14,7 @@ link: Intro
 <h1>My period of stay in the last 5 years is as follows:</h1>
 
 {% for item in site.data.common %}
-- <ol><li>{{item.period}}, {{item.place}}</li></ol>
+1. {{item.period}}, {{item.place}}
 {% endfor %}
 
 <h2>Description</h2>
