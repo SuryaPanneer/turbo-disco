@@ -2,6 +2,7 @@
 title: Stone Soup
 date: May 25, 2021
 author: Leanne Guenther, based on the Portuguese fable
+layout: template
 ---
 
 Stone Soup
