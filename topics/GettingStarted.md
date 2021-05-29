@@ -10,9 +10,8 @@ link: Intro
 {% include includetext.md %}
 <h1>Getting Started</h1>
 
-Added text for pull request
 
-<p>This view returns information about customers of the organization and person types in Oracle Fusion Receivables. This information is accessible through Receivables > Billing work area > Manage Customers. A record is returned for each customer identifier.</p>
+<p> Added text for pull request This view returns information about customers of the organization and person types in Oracle Fusion Receivables. This information is accessible through Receivables > Billing work area > Manage Customers. A record is returned for each customer identifier.</p>
 
 <p class="note">Note: This view returns information only about customers while the Manage Customers page may display information about all parties, such as suppliers and customer contacts.</p>
 
