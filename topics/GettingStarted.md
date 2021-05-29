@@ -7,7 +7,7 @@ link: Intro
 ---
 
 {% include singlesource.txt %}
-
+{% include includetext.md %}
 <h1>Getting Started</h1>
 
 <p>This view returns information about customers of the organization and person types in Oracle Fusion Receivables. This information is accessible through Receivables > Billing work area > Manage Customers. A record is returned for each customer identifier.</p>
