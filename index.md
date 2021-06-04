@@ -4,9 +4,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Heading 2
 
 Sed nisi lacus sed viverra tellus in hac tellus. Mattis molestie a iaculis at erat pellentesque. Risus at ultrices mi tempus imperdiet nulla. Adipiscing elit pellentesque habitant morbi tristique senectus et. Amet volutpat consequat mauris nunc congue nisi. Sit amet tellus cras adipiscing enim eu turpis egestas
-1. viverra
-2. tellus
-3. tellus
+<nav>
+  <ul>
+<li><a href="./../topics/GettingStarted.html">Getting Started</a></li>
+<li><a href="./../topics/Intro.html">Introduction</a></li>
+<li><a href="./../topics/story1.html">Hunted Down</a></li>
+<li><a href="./../topics/story2.html">Nobody's story</a></li>
+</ul>
+  </nav>
 
 Sed nisi lacus sed viverra tellus in hac tellus. Mattis molestie a iaculis at erat pellentesque. Risus at ultrices mi tempus imperdiet nulla. Adipiscing elit pellentesque habitant morbi tristique senectus et
 

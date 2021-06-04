@@ -15,7 +15,7 @@ ul {
   padding: 0;
 	border: 1px solid #555;
 	height: 100%;
-	background-color: red;
+	background-color: grey;
 	position: fixed;
 	overflow: auto;
 }
