@@ -4,3 +4,7 @@ h1 {
 p {
 	color:green;
 }
+
+nav{
+	border-bottom: 1px solid black;
+}
